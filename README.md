@@ -59,7 +59,8 @@ host the json file on GitHub or something.
 
 Alternatively you can pass in a path to a json file e.g `python script.py
 presents.json`. There is an example json file in this repository called
-`example.json`.
+`example.json`. It is pretty outdated though, and I can't be bothered to update
+it. But if you want to update it then please make a pull request.
 
 If you use a file path, if you want to modify the presents you will have to run
 the script again to create a new modded apk and then install it to the device.
