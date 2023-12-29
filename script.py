@@ -77,7 +77,7 @@ for arc in apk.get_architectures():
 if is_file and file_path is not None:
     file_path.remove()
 
-apk.set_app_name("Mailbox Hack")
+apk.set_app_name("Battle Cats Mailbox Hack")
 apk.set_package_name(
     "jp.co.ponos.battlecatsen.mailboxhack"
 )  # may not work if you set decode_resources to False when extracting the APK
@@ -88,9 +88,11 @@ apk.load_mods([mod])
 
 print(apk.final_apk_path)
 
-adb_handler = AdbHandler(apk.package_name)
-devices = adb_handler.get_connected_devices()
-print(devices)
-adb_handler.set_device(devices[0])
-adb_handler.install_apk(apk.get_final_apk_path())
-adb_handler.run_game()
+# uncomment the lines below to install the APK and run the game if you have a device connected with ADB
+
+# adb_handler = AdbHandler(apk.package_name)
+# devices = adb_handler.get_connected_devices()
+# print(devices)
+# adb_handler.set_device(devices[0])
+# adb_handler.install_apk(apk.get_final_apk_path())
+# adb_handler.run_game()
