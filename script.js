@@ -120,49 +120,57 @@ function get_presents() {
     return presents
 }
 
+function get_modified_response(url, payload) {
+    let nonce = get_nonce_from_url(url)
+    if (nonce == null) {
+        return [null, null, null]
+    }
+    let timestamp = Date.now()
+    let new_data = null
+
+    if (payload != null) {
+        let payload_string = JSON.stringify(payload)
+        new_data = `{"statusCode":1,"nonce":"${nonce}","payload":${payload_string},"timestamp": ${timestamp}}`
+    }
+    else {
+        new_data = `{"statusCode":1,"nonce":"${nonce}","timestamp": ${timestamp}}`
+    }
+
+    let headers = get_headers()
+    let data = get_direct_byte_buffer_from_string(new_data)
+    let response_code = 200
+
+    return [headers, data, response_code]
+}
+
 Java.perform(function () {
     let MyActivity = Java.use("jp.co.ponos.battlecats.MyActivity");
     MyActivity["newResponse"].implementation = function (handle, response_code, url, headers, data, flag) {
         if (url.toString().includes("https://nyanko-items.ponosgames.com/v4/presents/count?")) {
-            let nonce = get_nonce_from_url(url)
-            if (nonce == null) {
-                return
+            let payload = {
+                "count": get_presents().length
             }
-            let timestamp = Date.now()
-            let count = get_presents().length
-
-            let new_data = `{"statusCode":1,"nonce":"${nonce}","payload":{"count":${count}},"timestamp": ${timestamp}}`
-
-            headers = get_headers()
-            data = get_direct_byte_buffer_from_string(new_data)
-            response_code = 200
+            let response = get_modified_response(url, payload)
+            headers = response[0]
+            data = response[1]
+            response_code = response[2]
 
         }
         else if (url.toString().includes("https://nyanko-items.ponosgames.com/v4/presents?")) {
-            let nonce = get_nonce_from_url(url)
-            if (nonce == null) {
-                return
+            let payload = {
+                "presents": get_presents()
             }
-            let timestamp = Date.now()
-            let presents_string = JSON.stringify(get_presents())
+            let response = get_modified_response(url, payload)
+            headers = response[0]
+            data = response[1]
+            response_code = response[2]
 
-            let new_data = `{"statusCode":1,"nonce":"${nonce}","payload":{"presents":${presents_string}},"timestamp": ${timestamp}}`
-
-            headers = get_headers()
-            data = get_direct_byte_buffer_from_string(new_data)
-            response_code = 200
         }
-        else if (url.includes("https://nyanko-items.ponosgames.com/v3/presents//reception?")) {
-            let nonce = get_nonce_from_url(url)
-            if (nonce == null) {
-                return
-            }
-            let timestamp = Date.now()
-            let new_data = `{"statusCode":1,"nonce":"${nonce}","timestamp": ${timestamp}}`
-
-            headers = get_headers()
-            data = get_direct_byte_buffer_from_string(new_data)
-            response_code = 200
+        else if (url.toString().includes("https://nyanko-items.ponosgames.com/v3/presents//reception?")) {
+            let response = get_modified_response(url, null)
+            headers = response[0]
+            data = response[1]
+            response_code = response[2]
 
         };
         this["newResponse"](handle, response_code, url, headers, data, flag);
