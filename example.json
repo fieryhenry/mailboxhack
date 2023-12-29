@@ -117,6 +117,18 @@
                 "itemCategory": 0,
                 "amount": 10,
                 "title": "Elder Catfruit"
+            },
+            {
+                "itemId": 44,
+                "itemCategory": 0,
+                "amount": 10,
+                "title": "Gold Catfruit"
+            },
+            {
+                "itemId": 161,
+                "itemCategory": 0,
+                "amount": 10,
+                "title": "Aku Catfruit"
             }
         ]
     },
@@ -164,6 +176,18 @@
                 "itemCategory": 0,
                 "amount": 10,
                 "title": "Epic Catfruit Seed"
+            },
+            {
+                "itemId": 164,
+                "itemCategory": 0,
+                "amount": 10,
+                "title": "Gold Catfruit Seed"
+            },
+            {
+                "itemId": 160,
+                "itemCategory": 0,
+                "amount": 10,
+                "title": "Aku Catfruit Seed"
             }
         ]
     },
@@ -199,6 +223,12 @@
                 "itemCategory": 0,
                 "amount": 100,
                 "title": "Catseye [Legend Rare]"
+            },
+            {
+                "itemId": 58,
+                "itemCategory": 0,
+                "amount": 100,
+                "title": "Catseye [Dark]"
             }
         ]
     },
