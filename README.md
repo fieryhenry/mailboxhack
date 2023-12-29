@@ -21,6 +21,8 @@ a server to be running, all of the scripting is done on the device using
 - [jamesiotio's CITM](https://github.com/jamestiotio/CITM) for the original
     hacking method and the format of the presents. It no longer works due to
     PONOS adding a signature to the server responses as well as other changes.
+- [NekoB0x](https://www.reddit.com/user/NekoB0x/comments/gsidq5/mailboxhackpy/)
+  for the original presents json file used for `example.json`.
 
 ## Setup
 
@@ -60,7 +62,8 @@ host the json file on GitHub or something.
 Alternatively you can pass in a path to a json file e.g `python script.py
 presents.json`. There is an example json file in this repository called
 `example.json`. It is pretty outdated though, and I can't be bothered to update
-it. But if you want to update it then please make a pull request.
+it. But if you want to update it then please make a pull request. I got the
+original json file from: [NekoB0x](https://www.reddit.com/user/NekoB0x/comments/gsidq5/mailboxhackpy/)
 
 If you use a file path, if you want to modify the presents you will have to run
 the script again to create a new modded apk and then install it to the device.
