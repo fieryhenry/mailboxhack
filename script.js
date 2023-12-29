@@ -1,22 +1,5 @@
 let presents_url = "{{PRESENTS_URL}}"
-let is_file = "true"//"{{ IS_FILE }}"
-
-function is_64_bit() {
-    return Process.pointerSize === 8;
-}
-
-function log(message) {
-    Java.perform(function () {
-        var Log = Java.use("android.util.Log");
-        Log.i("tbcml", message);
-        console.info(message);
-    });
-}
-
-function getPackageName() {
-    return Java.use("android.app.ActivityThread").currentApplication().getPackageName();
-}
-
+let is_file = "{{IS_FILE}}"
 
 if (is_64_bit()) {
     let func_name = "_ZN5Botan11PK_Verifier14verify_messageEPKhmS2_m" // 64 bit
