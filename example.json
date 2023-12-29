@@ -1,0 +1,420 @@
+[
+    {
+        "title": "\nCat food +1001",
+        "items": [
+            {
+                "itemId": 0,
+                "itemCategory": 0,
+                "amount": 1000,
+                "title": "Cat food"
+            }
+        ]
+    },
+    {
+        "title": "\nPowerups +200 each",
+        "items": [
+            {
+                "itemId": 0,
+                "itemCategory": 0,
+                "amount": 200,
+                "title": "Speed Up"
+            },
+            {
+                "itemId": 1,
+                "itemCategory": 0,
+                "amount": 200,
+                "title": "Treasure Radar"
+            },
+            {
+                "itemId": 2,
+                "itemCategory": 0,
+                "amount": 200,
+                "title": "Rich Cat"
+            },
+            {
+                "itemId": 3,
+                "itemCategory": 0,
+                "amount": 200,
+                "title": "Cat CPU"
+            },
+            {
+                "itemId": 4,
+                "itemCategory": 0,
+                "amount": 200,
+                "title": "Cat Jobs"
+            },
+            {
+                "itemId": 5,
+                "itemCategory": 0,
+                "amount": 200,
+                "title": "Sniper the Cat"
+            }
+        ]
+    },
+    {
+        "title": "\nXP +20000000",
+        "items": [
+            {
+                "itemId": 6,
+                "itemCategory": 0,
+                "amount": 20000000,
+                "title": "XP"
+            }
+        ]
+    },
+    {
+        "title": "\nNP +1000",
+        "items": [
+            {
+                "itemId": 7,
+                "itemCategory": 0,
+                "amount": 1000,
+                "title": "NP"
+            }
+        ]
+    },
+    {
+        "title": "\nCatfruit +10 each",
+        "items": [
+            {
+                "itemId": 35,
+                "itemCategory": 0,
+                "amount": 10,
+                "title": "Purple Catfruit"
+            },
+            {
+                "itemId": 36,
+                "itemCategory": 0,
+                "amount": 10,
+                "title": "Red Catfruit"
+            },
+            {
+                "itemId": 37,
+                "itemCategory": 0,
+                "amount": 10,
+                "title": "Blue Catfruit"
+            },
+            {
+                "itemId": 38,
+                "itemCategory": 0,
+                "amount": 10,
+                "title": "Green Catfruit"
+            },
+            {
+                "itemId": 39,
+                "itemCategory": 0,
+                "amount": 10,
+                "title": "Yellow Catfruit"
+            },
+            {
+                "itemId": 40,
+                "itemCategory": 0,
+                "amount": 10,
+                "title": "Epic Catfruit"
+            },
+            {
+                "itemId": 42,
+                "itemCategory": 0,
+                "amount": 10,
+                "title": "Elder Catfruit"
+            }
+        ]
+    },
+    {
+        "title": "\nCatfruit seed +10 each",
+        "items": [
+            {
+                "itemId": 30,
+                "itemCategory": 0,
+                "amount": 10,
+                "title": "Purple Catfruit Seed"
+            },
+            {
+                "itemId": 31,
+                "itemCategory": 0,
+                "amount": 10,
+                "title": "Red Catfruit Seed"
+            },
+            {
+                "itemId": 32,
+                "itemCategory": 0,
+                "amount": 10,
+                "title": "Blue Catfruit Seed"
+            },
+            {
+                "itemId": 33,
+                "itemCategory": 0,
+                "amount": 10,
+                "title": "Green Catfruit Seed"
+            },
+            {
+                "itemId": 34,
+                "itemCategory": 0,
+                "amount": 10,
+                "title": "Yellow Catfruit Seed"
+            },
+            {
+                "itemId": 41,
+                "itemCategory": 0,
+                "amount": 10,
+                "title": "Elder Catfruit Seed"
+            },
+            {
+                "itemId": 43,
+                "itemCategory": 0,
+                "amount": 10,
+                "title": "Epic Catfruit Seed"
+            }
+        ]
+    },
+    {
+        "title": "\nCateye +100 each",
+        "items": [
+            {
+                "itemId": 50,
+                "itemCategory": 0,
+                "amount": 100,
+                "title": "Catseye [Special]"
+            },
+            {
+                "itemId": 51,
+                "itemCategory": 0,
+                "amount": 100,
+                "title": "Catseye [Rare]"
+            },
+            {
+                "itemId": 52,
+                "itemCategory": 0,
+                "amount": 100,
+                "title": "Catseye [Super Rare]"
+            },
+            {
+                "itemId": 53,
+                "itemCategory": 0,
+                "amount": 100,
+                "title": "Catseye [Uber Rare]"
+            },
+            {
+                "itemId": 54,
+                "itemCategory": 0,
+                "amount": 100,
+                "title": "Catseye [Legend Rare]"
+            }
+        ]
+    },
+    {
+        "title": "\nCatamin +100 each",
+        "items": [
+            {
+                "itemId": 55,
+                "itemCategory": 0,
+                "amount": 100,
+                "title": "Catamin [A]"
+            },
+            {
+                "itemId": 56,
+                "itemCategory": 0,
+                "amount": 100,
+                "title": "Catamin [B]"
+            },
+            {
+                "itemId": 57,
+                "itemCategory": 0,
+                "amount": 100,
+                "title": "Catamin [C]"
+            }
+        ]
+    },
+    {
+        "title": "\nBuilding materials +100 each",
+        "items": [
+            {
+                "itemId": 85,
+                "itemCategory": 0,
+                "amount": 100,
+                "title": "Bricks"
+            },
+            {
+                "itemId": 86,
+                "itemCategory": 0,
+                "amount": 100,
+                "title": "Feathers"
+            },
+            {
+                "itemId": 87,
+                "itemCategory": 0,
+                "amount": 100,
+                "title": "Coal"
+            },
+            {
+                "itemId": 88,
+                "itemCategory": 0,
+                "amount": 100,
+                "title": "Sprockets"
+            },
+            {
+                "itemId": 89,
+                "itemCategory": 0,
+                "amount": 100,
+                "title": "Gold"
+            },
+            {
+                "itemId": 90,
+                "itemCategory": 0,
+                "amount": 100,
+                "title": "Meteorite"
+            },
+            {
+                "itemId": 91,
+                "itemCategory": 0,
+                "amount": 100,
+                "title": "Beast Bones"
+            }
+        ]
+    },
+    {
+        "title": "\nEngineers +5(maximum value)",
+        "items": [
+            {
+                "itemId": 92,
+                "itemCategory": 0,
+                "amount": 5,
+                "title": "Engineers"
+            }
+        ]
+    },
+    {
+        "title": "\nCat Ticket +100",
+        "items": [
+            {
+                "itemId": 20,
+                "itemCategory": 0,
+                "amount": 100,
+                "title": "Cat Ticket"
+            }
+        ]
+    },
+    {
+        "title": "\nRare Ticket +20",
+        "items": [
+            {
+                "itemId": 21,
+                "itemCategory": 0,
+                "amount": 20,
+                "title": "Rare Ticket"
+            }
+        ]
+    },
+    {
+        "title": "\nPlatinum Ticket +5",
+        "items": [
+            {
+                "itemId": 29,
+                "itemCategory": 0,
+                "amount": 5,
+                "title": "Platinum Ticket"
+            }
+        ]
+    },
+    {
+        "title": "\nLegend Ticket +4",
+        "items": [
+            {
+                "itemId": 145,
+                "itemCategory": 0,
+                "amount": 4,
+                "title": "Legend Ticket"
+            }
+        ]
+    },
+    {
+        "title": "\nMedals",
+        "items": [
+            {
+                "itemId": 174,
+                "itemCategory": 0,
+                "amount": 174
+            },
+            {
+                "itemId": 175,
+                "itemCategory": 0,
+                "amount": 175
+            },
+            {
+                "itemId": 176,
+                "itemCategory": 0,
+                "amount": 176
+            },
+            {
+                "itemId": 177,
+                "itemCategory": 0,
+                "amount": 177
+            }
+        ]
+    },
+    {
+        "title": "\nUnlock all Legendary Cat Units",
+        "items": [
+            {
+                "itemId": 448,
+                "itemCategory": 1,
+                "amount": 1,
+                "title": "Musashi Miyamoto"
+            },
+            {
+                "itemId": 449,
+                "itemCategory": 1,
+                "amount": 1,
+                "title": "Headmistress Jeanne"
+            },
+            {
+                "itemId": 450,
+                "itemCategory": 1,
+                "amount": 1,
+                "title": "High Lord Babel"
+            },
+            {
+                "itemId": 451,
+                "itemCategory": 1,
+                "amount": 1,
+                "title": "Ushiwakamaru"
+            },
+            {
+                "itemId": 455,
+                "itemCategory": 1,
+                "amount": 1,
+                "title": "Wonder MOMOCO"
+            },
+            {
+                "itemId": 461,
+                "itemCategory": 1,
+                "amount": 1,
+                "title": "Legeluga"
+            },
+            {
+                "itemId": 463,
+                "itemCategory": 1,
+                "amount": 1,
+                "title": "Mighty Kristul Muu"
+            },
+            {
+                "itemId": 478,
+                "itemCategory": 1,
+                "amount": 1,
+                "title": "Lumina"
+            },
+            {
+                "itemId": 493,
+                "itemCategory": 1,
+                "amount": 1,
+                "title": "Gaia the Creator"
+            },
+            {
+                "itemId": 510,
+                "itemCategory": 1,
+                "amount": 1,
+                "title": "Akuma"
+            }
+        ]
+    }
+]
