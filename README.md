@@ -37,8 +37,16 @@ doesn't have all the features needed. See
     can do this by typing `cd <path>` where `<path>` is the path to the directory
     containing the files.)
 1. Run `python script.py` to create the modded apk.
+1. You may get `Relocation R32 not supported!` errors, this is normal and can be
+   ignored (idk how to get rid of them).
+1. If the script fails to pack / sign the apk, then you should change
+   `apk.extract(decode_resources=True)` to `apk.extract(decode_resources=False)`
+   near the top of `script.py`.
 1. Install the modded apk on your device. The script will display the path to the
     apk file.
+1. The app should be called "Battle Cats Mailbox Hack", it won't be if decode
+   resources is set to false. You can change the name in the script if you want,
+   or just delete that line, it will be near the end of `script.py`.
 1. Open the game and go to the mailbox. You should see that you have some
     presents.
 
