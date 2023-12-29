@@ -64,6 +64,7 @@ else:
         "false",
     )
 
+    print("Presents loaded from " + presents_str)
 
 script_name = "mailbox-hack"
 id = FridaScript.create_id()
