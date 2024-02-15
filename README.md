@@ -42,7 +42,7 @@ doesn't have all the features needed. See
 1. You may get `Relocation R32 not supported!` errors, this is normal and can be
    ignored (idk how to get rid of them).
 1. If the script fails to pack / sign the apk, then you should change
-   `apk.extract(decode_resources=True)` to `apk.extract(decode_resources=False)`
+   `loader.initialize()` to `loader.initialize(decode_resources=False)`
    near the top of `script.py`.
 1. Install the modded apk on your device. The script will display the path to the
     apk file.
