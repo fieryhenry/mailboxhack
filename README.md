@@ -102,8 +102,8 @@ following:
         "createdAt": 1574529411,
         "acceptedAt": 1,
         "items": [
-            {"itemId": 22, "itemCategory": 0, "amount": 0, "title": "Catfood"},
-            {"itemId": 22, "itemCategory": 0, "amount": 0, "title": "Catfood"},
+            {"itemId": 22, "itemCategory": 0, "amount": 100, "title": "Catfood"},
+            {"itemId": 21, "itemCategory": 0, "amount": 20, "title": "Rare Ticket"},
         ],
     }
 ]
