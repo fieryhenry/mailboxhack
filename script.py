@@ -52,7 +52,7 @@ script = FridaScript(
 mod = Mod(
     name="Mailbox Hack",
     authors=["fieryhenry", "jamesiotio", "NekoB0x"],
-    description="A mod that disables signature verification and replaces mailbox server responses with custom ones.",
+    short_description="A mod that disables signature verification and replaces mailbox server responses with custom ones.",
 )
 
 mod.add_script(script)
@@ -67,10 +67,10 @@ print("Applying mods to game...")
 
 loader.apply(mod)
 
-print(apk.final_apk_path)
+print(apk.final_pkg_path)
 
 # uncomment the lines below to install the apk and run the game if you have a
 # device connected with adb
 
 # loader.initialize_adb()
-# loader.install_adb(run_game=True)
+# print(loader.install_adb(run_game=True))
